@@ -41,17 +41,17 @@ function flashRainbowColors(callback) {
 }
 
 // Function to display the cat.gif initially
-function displaycat() {
+function displayCat() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat
     var catImage = new Image();
     // Set the source (file path) for the cat image
-   catImage.src = 'cat.gif'; // Assuming the cat image is named "cat.gif"
+    catImage.src = 'cat.gif'; // Assuming the cat image is named "cat.gif"
     // Set alternative text for the image (for accessibility)
-   catImage.alt = 'cat';
+    catImage.alt = 'Cat';
     // When the cat image is fully loaded, add it to the image container
-   catImage.onload = function() {
+    catImage.onload = function() {
         imageContainer.appendChild(catImage);
     };
 }
@@ -64,7 +64,7 @@ function displayKuromi() {
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the kuromi
     var kuromiImage = new Image();
-    // Set the source (file path) for the kuromi
+    // Set the source (file path) for the kuromi image
     kuromiImage.src = 'kuromi.gif'; // Assuming the kuromi image is named "kuromi.gif"
     // Set alternative text for the image (for accessibility)
     kuromiImage.alt = 'kuromi';
