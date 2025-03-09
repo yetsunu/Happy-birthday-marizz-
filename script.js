@@ -40,19 +40,19 @@ function flashRainbowColors(callback) {
     }, 2000); // Flash colors for 2 seconds
 }
 
-// Function to display the panda.gif initially
-function displayPanda() {
+// Function to display the cat.gif initially
+function displaycat() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
-    // Create a new Image element for the panda
-    var pandaImage = new Image();
-    // Set the source (file path) for the panda image
-    pandaImage.src = 'panda.gif'; // Assuming the panda image is named "panda.gif"
+    // Create a new Image element for the cat
+    var catImage = new Image();
+    // Set the source (file path) for the cat image
+   catImage.src = 'cat.gif'; // Assuming the cat image is named "cat.gif"
     // Set alternative text for the image (for accessibility)
-    pandaImage.alt = 'Panda';
-    // When the panda image is fully loaded, add it to the image container
-    pandaImage.onload = function() {
-        imageContainer.appendChild(pandaImage);
+   catImage.alt = 'cat';
+    // When the cat image is fully loaded, add it to the image container
+   catImage.onload = function() {
+        imageContainer.appendChild(catImage);
     };
 }
 
@@ -76,5 +76,5 @@ function displayKuromi() {
     };
 }
 
-// Display the panda.gif initially
-displayPanda();
+// Display the cat.gif initially
+displayCat();
